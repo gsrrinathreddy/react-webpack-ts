@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import Message from './Message';
+import Feedback from './Feedback';
 export default function App():JSX.Element{
     return(
         <h1>
-           SSSSS
+           We will learn React using TypeScript
+           <Message/>
+           <Feedback/>
         </h1>
     )
 }
